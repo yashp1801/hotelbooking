@@ -1,0 +1,20 @@
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeTitle{
+    font-size: 1.2rem;
+    margin-right: 51rem;
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+}
+
+.homeTitle2{
+    font-size: 1.2rem;
+    margin-right: 54rem;
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+}

@@ -1,0 +1,21 @@
+.plist{
+    display: flex;
+    width: auto;
+}
+
+.plistItem{
+    margin: 0 0.8rem;
+}
+.plistImg{
+    height: 8rem;
+    object-fit: cover;
+}
+
+.plistTitles>h1{
+    font-size: 1.5rem;
+}
+.plistTitles>h2{
+    font-size: 0.9rem;
+    color: #4f4c4c;
+    font-weight: 400;
+}

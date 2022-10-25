@@ -1,0 +1,147 @@
+.hotel {
+  height: auto;
+  width: 100%;
+}
+.hotelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 7rem;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+.hotelContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.hotelContent h1 {
+  font-size: 2.1rem;
+  color: #141414;
+  text-transform: capitalize;
+}
+.hotelContent span {
+  display: flex;
+  align-items: center;
+  color: #423f3f;
+}
+.hotelContent p {
+  color: royalblue;
+  font-weight: 500;
+}
+.hotelContentBtn {
+  background-color: green;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+.hotelContentBtn:hover {
+  background-color: rgb(4, 83, 4);
+  transition: 0.1s ease-out;
+}
+
+.hotelImg {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 0.5rem;
+}
+.hotelImages {
+  height: 247px;
+  margin: 5px 1rem;
+}
+
+.hotelInfo {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.hotelInfoSubDiv1 {
+  width: 100%;
+}
+.hotelInfoSubDiv1 h1 {
+  font-size: 1.8rem;
+  color: #141414;
+  text-transform: capitalize;
+}
+.hotelInfoSubDiv1 p {
+  width: 70%;
+}
+.hotelInfoSubdiv2 {
+  width: 40%;
+  padding: 1rem;
+  background-color: rgb(214, 242, 214);
+  border-radius: 0.6rem;
+}
+.hotelInfoSubdiv2 h2 {
+  color: #141414;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+}
+.hotelInfoSubdiv2 p {
+  color: #423f3f;
+  margin-bottom: 1rem;
+}
+.hotelInfoSubdiv2 h3 {
+  color: #141414;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1414146e;
+  z-index: 999;
+}
+
+.sliderWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderImg {
+  height: 30rem;
+}
+
+.arrowright {
+  position: absolute;
+  font-size: 5rem;
+  color: #fff;
+  top: 45%;
+  right: 10rem;
+  cursor: pointer;
+}
+
+.arrowleft {
+  position: absolute;
+  font-size: 5rem;
+  color: #fff;
+  top: 45%;
+  left: 10rem;
+  cursor: pointer;
+}
+.exit {
+  position: absolute;
+  top: 1.7rem;
+  right: 3rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

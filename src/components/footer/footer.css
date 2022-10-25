@@ -1,0 +1,29 @@
+.footer{
+    height:auto;
+    width: 100%;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6rem;
+    align-items: center;
+}
+
+.footerList{
+    width: 10%;
+}
+
+.footerList ul li{
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footerList ul li:hover{
+    font-weight: 700;
+}
+
+.footerCopyright{
+    width: 100%;
+    text-align: center;
+}
